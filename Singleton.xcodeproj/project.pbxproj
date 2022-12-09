@@ -8,14 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		845BDBEB294355CB00CBF372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBEA294355CB00CBF372 /* AppDelegate.swift */; };
-		845BDBED294355CB00CBF372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBEC294355CB00CBF372 /* SceneDelegate.swift */; };
-		845BDBEF294355CB00CBF372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDBEE294355CB00CBF372 /* ViewController.swift */; };
 		845BDBF2294355CB00CBF372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845BDBF0294355CB00CBF372 /* Main.storyboard */; };
 		845BDBF4294355CE00CBF372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845BDBF3294355CE00CBF372 /* Assets.xcassets */; };
 		845BDBF7294355CE00CBF372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845BDBF5294355CE00CBF372 /* LaunchScreen.storyboard */; };
 		845BDC02294355CF00CBF372 /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC01294355CF00CBF372 /* SingletonTests.swift */; };
 		845BDC0C294355CF00CBF372 /* SingletonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC0B294355CF00CBF372 /* SingletonUITests.swift */; };
 		845BDC0E294355CF00CBF372 /* SingletonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC0D294355CF00CBF372 /* SingletonUITestsLaunchTests.swift */; };
+		845BDC202943563B00CBF372 /* SingletonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC1F2943563B00CBF372 /* SingletonVC.swift */; };
+		845BDC23294356A300CBF372 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC22294356A300CBF372 /* Singleton.swift */; };
+		845BDC26294356E200CBF372 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC25294356E200CBF372 /* Client.swift */; };
+		845BDC292943574900CBF372 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC282943574900CBF372 /* BaseVC.swift */; };
+		845BDC2C2943575E00CBF372 /* MessagesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC2B2943575E00CBF372 /* MessagesListVC.swift */; };
+		845BDC2F2943577B00CBF372 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC2E2943577B00CBF372 /* ChatVC.swift */; };
+		845BDC322943579F00CBF372 /* MessageSubscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC312943579F00CBF372 /* MessageSubscriber.swift */; };
+		845BDC34294357AE00CBF372 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC33294357AE00CBF372 /* MessageService.swift */; };
+		845BDC37294357D600CBF372 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC36294357D600CBF372 /* Message.swift */; };
+		845BDC3A294357F600CBF372 /* FriendsChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BDC39294357F600CBF372 /* FriendsChatService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +46,6 @@
 /* Begin PBXFileReference section */
 		845BDBE7294355CB00CBF372 /* Singleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Singleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845BDBEA294355CB00CBF372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		845BDBEC294355CB00CBF372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		845BDBEE294355CB00CBF372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		845BDBF1294355CB00CBF372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845BDBF3294355CE00CBF372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845BDBF6294355CE00CBF372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,16 @@
 		845BDC07294355CF00CBF372 /* SingletonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845BDC0B294355CF00CBF372 /* SingletonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonUITests.swift; sourceTree = "<group>"; };
 		845BDC0D294355CF00CBF372 /* SingletonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		845BDC1F2943563B00CBF372 /* SingletonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonVC.swift; sourceTree = "<group>"; };
+		845BDC22294356A300CBF372 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		845BDC25294356E200CBF372 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		845BDC282943574900CBF372 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		845BDC2B2943575E00CBF372 /* MessagesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesListVC.swift; sourceTree = "<group>"; };
+		845BDC2E2943577B00CBF372 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		845BDC312943579F00CBF372 /* MessageSubscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSubscriber.swift; sourceTree = "<group>"; };
+		845BDC33294357AE00CBF372 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		845BDC36294357D600CBF372 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		845BDC39294357F600CBF372 /* FriendsChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsChatService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +116,11 @@
 			isa = PBXGroup;
 			children = (
 				845BDBEA294355CB00CBF372 /* AppDelegate.swift */,
-				845BDBEC294355CB00CBF372 /* SceneDelegate.swift */,
-				845BDBEE294355CB00CBF372 /* ViewController.swift */,
-				845BDBF0294355CB00CBF372 /* Main.storyboard */,
+				845BDC1D2943561000CBF372 /* Example */,
+				845BDC1C2943560A00CBF372 /* Concept */,
+				845BDC1B2943560100CBF372 /* ViewControllers */,
+				845BDC1A294355F900CBF372 /* Storyboards */,
 				845BDBF3294355CE00CBF372 /* Assets.xcassets */,
-				845BDBF5294355CE00CBF372 /* LaunchScreen.storyboard */,
 				845BDBF8294355CE00CBF372 /* Info.plist */,
 			);
 			path = Singleton;
@@ -125,6 +141,118 @@
 				845BDC0D294355CF00CBF372 /* SingletonUITestsLaunchTests.swift */,
 			);
 			path = SingletonUITests;
+			sourceTree = "<group>";
+		};
+		845BDC1A294355F900CBF372 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				845BDBF0294355CB00CBF372 /* Main.storyboard */,
+				845BDBF5294355CE00CBF372 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		845BDC1B2943560100CBF372 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				845BDC272943574200CBF372 /* BaseVC */,
+				845BDC2D2943577100CBF372 /* ChatVC */,
+				845BDC2A2943575600CBF372 /* MessagesListVC */,
+				845BDC1E2943561700CBF372 /* SingletonVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		845BDC1C2943560A00CBF372 /* Concept */ = {
+			isa = PBXGroup;
+			children = (
+				845BDC212943569900CBF372 /* Singleton */,
+				845BDC24294356D800CBF372 /* Client */,
+			);
+			path = Concept;
+			sourceTree = "<group>";
+		};
+		845BDC1D2943561000CBF372 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				845BDC302943579300CBF372 /* Interface */,
+				845BDC35294357C800CBF372 /* Structures */,
+				845BDC38294357E700CBF372 /* FriendsChatService */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		845BDC1E2943561700CBF372 /* SingletonVC */ = {
+			isa = PBXGroup;
+			children = (
+				845BDC1F2943563B00CBF372 /* SingletonVC.swift */,
+			);
+			path = SingletonVC;
+			sourceTree = "<group>";
+		};
+		845BDC212943569900CBF372 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				845BDC22294356A300CBF372 /* Singleton.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		845BDC24294356D800CBF372 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				845BDC25294356E200CBF372 /* Client.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		845BDC272943574200CBF372 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				845BDC282943574900CBF372 /* BaseVC.swift */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		845BDC2A2943575600CBF372 /* MessagesListVC */ = {
+			isa = PBXGroup;
+			children = (
+				845BDC2B2943575E00CBF372 /* MessagesListVC.swift */,
+			);
+			path = MessagesListVC;
+			sourceTree = "<group>";
+		};
+		845BDC2D2943577100CBF372 /* ChatVC */ = {
+			isa = PBXGroup;
+			children = (
+				845BDC2E2943577B00CBF372 /* ChatVC.swift */,
+			);
+			path = ChatVC;
+			sourceTree = "<group>";
+		};
+		845BDC302943579300CBF372 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				845BDC312943579F00CBF372 /* MessageSubscriber.swift */,
+				845BDC33294357AE00CBF372 /* MessageService.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		845BDC35294357C800CBF372 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				845BDC36294357D600CBF372 /* Message.swift */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		845BDC38294357E700CBF372 /* FriendsChatService */ = {
+			isa = PBXGroup;
+			children = (
+				845BDC39294357F600CBF372 /* FriendsChatService.swift */,
+			);
+			path = FriendsChatService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +386,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845BDBEF294355CB00CBF372 /* ViewController.swift in Sources */,
+				845BDC2C2943575E00CBF372 /* MessagesListVC.swift in Sources */,
+				845BDC2F2943577B00CBF372 /* ChatVC.swift in Sources */,
+				845BDC202943563B00CBF372 /* SingletonVC.swift in Sources */,
+				845BDC3A294357F600CBF372 /* FriendsChatService.swift in Sources */,
+				845BDC322943579F00CBF372 /* MessageSubscriber.swift in Sources */,
+				845BDC34294357AE00CBF372 /* MessageService.swift in Sources */,
+				845BDC23294356A300CBF372 /* Singleton.swift in Sources */,
+				845BDC26294356E200CBF372 /* Client.swift in Sources */,
+				845BDC37294357D600CBF372 /* Message.swift in Sources */,
 				845BDBEB294355CB00CBF372 /* AppDelegate.swift in Sources */,
-				845BDBED294355CB00CBF372 /* SceneDelegate.swift in Sources */,
+				845BDC292943574900CBF372 /* BaseVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +579,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +587,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Singleton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,8 +609,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +617,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Singleton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
